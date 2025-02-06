@@ -25,3 +25,4 @@ def checkCalculation():
         print("Unsupported Operation. Please provide either 'd' or 'f'")
 
 checkCalculation()
+# nice
