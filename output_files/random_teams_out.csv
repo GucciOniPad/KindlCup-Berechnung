@@ -1,0 +1,43 @@
+team,name,result,points
+Team 5,Jane Williams,200.0,239.0
+Team 5,Michael Martinez,199.0,237.0
+Team 5,Laura Johnson,197.0,234.0
+Team 5,Laura Williams,195.0,230.0
+Team 5,Laura Rodriguez,194.0,229.0
+Team 5,David Davis,194.0,229.0
+,SUM,,1398.0
+Team 4,Sarah Williams,199.0,237.0
+Team 4,Sarah Martinez,197.0,234.0
+Team 4,Katie Brown,195.0,230.0
+Team 4,Katie Jones,195.0,230.0
+Team 4,Alex Smith,193.0,227.0
+Team 4,Emily Brown,191.0,224.0
+,SUM,,1382.0
+Team 1,David Smith,198.0,235.0
+Team 1,David Johnson,196.0,232.0
+Team 1,Jane Johnson,193.0,227.0
+Team 1,Michael Williams,192.0,225.0
+Team 1,Katie Garcia,190.0,222.0
+Team 1,Michael Smith,190.0,222.0
+,SUM,,1363.0
+Team 2,John Jones,199.0,237.0
+Team 2,Sarah Brown,198.0,235.0
+Team 2,Laura Miller,192.0,225.0
+Team 2,Laura Johnson,190.0,222.0
+Team 2,John Miller,189.0,220.0
+Team 2,Katie Davis,186.0,215.0
+,SUM,,1354.0
+Team 6,Katie Garcia,195.0,230.0
+Team 6,Michael Jones,193.0,227.0
+Team 6,Laura Brown,192.0,225.0
+Team 6,John Johnson,191.0,224.0
+Team 6,Alex Jones,190.0,222.0
+Team 6,Katie Rodriguez,190.0,222.0
+,SUM,,1350.0
+Team 3,David Davis,190.0,222.0
+Team 3,David Williams,190.0,222.0
+Team 3,Sarah Rodriguez,189.0,220.0
+Team 3,Chris Johnson,189.0,220.0
+Team 3,David Miller,187.0,217.0
+Team 3,John Smith,184.0,212.0
+,SUM,,1313.0
