@@ -1,6 +1,7 @@
 import csv_parser
 
 # TODO: Write Main which prompts user and does things (ask if we want to create final ranking or just rank discipline)
+
 """
     Erfragt Disziplin, die berechnet werden soll und führt die Berechnung auf den csv Dateien durch
 """
@@ -11,6 +12,17 @@ def calculateDiscipline():
 
     csv_parser.writeFileRankingCSV(input_file, discipline, "output_files/out_test.csv")
     csv_parser.writeTop6PerTeamCSV("output_files/out_test.csv", output_file, discipline)
+
+"""
+    Berechnet das finale ranking basierend auf den einzelnen Disziplinsrankings
+"""
+def calculateFinalScoring():
+    output_files = input("Enter path to directory of output files:\n")
+    # Loop through files in dir and perform ranking
+    # Write Final scoring in output file
+
+
+
 
 """
     Diese Funktion startet, je nach User input, die Berechnung für eine Disziplin oder die finale Auswertung
