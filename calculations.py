@@ -55,7 +55,7 @@ def calculateStadioncross(leistung):
     c = 1.85
     float(leistung)
 
-    return math.floor(a * (b / leistung) ** c)
+    return math.floor((a * (b / leistung) ** c) * 0.8)
 
 # Old
 def calculateStadioncrossOLD(leistung):
