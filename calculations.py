@@ -1,7 +1,7 @@
 import math
 
 """
-    Die Zahlen der Berechnung entsprechen denen der offiziellen Mehrkampfberechnungen
+    Die Zahlen der Berechnung entsprechen denen der offiziellen Mehrkampfberechnungen (oder orientieren sich daran)
 """
 
 
@@ -30,6 +30,7 @@ def calculateDrehwurf(leistung):
     float(leistung)
 
     return math.floor((leistung**c) * a)
+
 """
     Berechne Punktzahl des Fünfsprungs
 
@@ -55,7 +56,7 @@ def calculateStadioncross(leistung):
     c = 1.85
     float(leistung)
 
-    return math.floor((a * (b / leistung) ** c) * 0.8)
+    return math.floor((a * (b / leistung) ** c) * 0.8) # Balancing 80% during competition
 
 # Old
 def calculateStadioncrossOLD(leistung):

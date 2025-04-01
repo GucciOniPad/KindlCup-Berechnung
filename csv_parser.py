@@ -120,9 +120,4 @@ def writeTop6PerTeamCSV(csv_file, output_file, discipline):
         for team, data in sorted_teams:
             for entry in data["entries"]:
                 writer.writerow({"team": team, "name": entry["name"], "result": entry["result"], "points": entry["points"]})
-            writer.writerow({"team": "", "name": "SUM", "result": "", "points": data["sum"]}) # TODO: Maybe get points here (1 for first, 2 for second and so on)
-
-    # print(f"Top 6 results per team successfully written to {output_file}")
-    # writeDiscipline(discipline)
-# writeFileRankingCSV("resultlists/random.csv", 'f', "output_files/output.csv")
-# writeTop6PerTeamCSV("resultlists/fuenfsprung.csv", "output_files/fuenfsprung.csv", 'f')
+            writer.writerow({"team": "", "name": "SUM", "result": "", "points": data["sum"]})
