@@ -16,6 +16,8 @@ Für jedes Kind floß bei den technischen Disziplinen der beste aus drei Versuch
 Im Ordner [resultlists/PSV](./resultlists/PSV) finden sich alle Ergebnisse aus dem ersten Wettkampf. Die Dateien können direkt hier im Browser eingesehen und heruntergeladen werden.
 Die tatsächlichen Ergebnisse mit den Top 6 Leistungen pro Team finden sich in gleichem Format im Verzeichnis [output_files/PSV](./output_files/PSV). Außerdem finden sich hier pro Altersklasse eine .txt Datei mit den Endergebnissen. Die Spalte `name` entspricht hier übrigens immer der Startnummer des Athleten. 
 
+**Nachtrag Datenformat:** Das angegebene `result` ist immer der beste Versuch des Athleten. Folgende Datenformate wurden verwendet: Wurf - Meter (gerundet), Sprung - Zentimeter, Stadioncross - Sekunden (gerundet). Somit ergibt sich die Notation in der .csv Datei bestehend aus `name` (Startnummer), `team` und `result` (bester Versuch im oben genannten Format).
+
 Zum Testen des Programms finden sich im Ordner [resultlists/test](./resultlists/test) und im dazugehörigen Ordner [output_files/test](./output_files/test) ein beispielhafter Datensatz mit ca. 500 Einträgen.
 
 ---
