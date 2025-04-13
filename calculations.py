@@ -58,10 +58,22 @@ def calculateStadioncross(leistung):
 
     return math.floor((a * (b / leistung) ** c) * 0.8) # Balancing 80% during competition
 
-# Old
-def calculateStadioncrossOLD(leistung):
-    c = 1.85
-    a = 0.08713 # Not final
+"""2.Wettkampf TS Jahn"""
+
+# TODO: Separate formulas for age groups due to differences in race length
+
+"""
+    Berechne Punktzahl des Hindernissprints
+    
+    :param leistung: Leistung in Sekunden, Zehntel Hundertstel (2 Nachkommastellen)
+    :return: abgerundet e Punktzahl
+"""
+def calculateHindernissprintU12(leistung):
+    a = 20.5173
+    c = 1.92
     float(leistung)
 
-    return math.floor((leistung**c) * a)
+    return math.floor(a * (leistung**c))
+
+leistungS = float(input("Leistung: "))
+print(calculateHindernissprintU12(leistungS))
