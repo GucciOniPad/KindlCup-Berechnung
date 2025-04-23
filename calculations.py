@@ -70,10 +70,13 @@ def calculateStadioncross(leistung):
 """
 def calculateHindernissprintU12(leistung):
     a = 20.5173
-    c = 1.92
+    b = 17 # Basis 0 Wert (18)
+    c = 1.74 # 1.92
     float(leistung)
 
-    return math.floor(a * (leistung**c))
+    return math.floor(a * ((b - leistung)**c))
 
-leistungS = float(input("Leistung: "))
-print(calculateHindernissprintU12(leistungS))
+leistungen = [8.67, 9.22, 9.26, 9.43, 9.43, 9.82, 9.87, 9.88, 9.93, 9.99, 10.03, 10.07, 10.25, 10.27, 10.35, 10.36, 10.41, 10.68, 11.19, 11.30, 11.77]
+for i in leistungen:
+    # print(i)
+    print(calculateHindernissprintU12(i))
