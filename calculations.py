@@ -66,7 +66,7 @@ def calculateStadioncross(leistung):
     Berechne Punktzahl des Hindernissprints
     
     :param leistung: Leistung in Sekunden, Zehntel Hundertstel (2 Nachkommastellen)
-    :return: abgerundet e Punktzahl
+    :return: abgerundete Punktzahl
 """
 def calculateHindernissprintU12(leistung):
     a = 20.5173
@@ -76,7 +76,47 @@ def calculateHindernissprintU12(leistung):
 
     return math.floor(a * ((b - leistung)**c))
 
-leistungen = [8.67, 9.22, 9.26, 9.43, 9.43, 9.82, 9.87, 9.88, 9.93, 9.99, 10.03, 10.07, 10.25, 10.27, 10.35, 10.36, 10.41, 10.68, 11.19, 11.30, 11.77]
-for i in leistungen:
+"""
+    TODO: U8 und U10
+"""
+
+"""
+    Berechne Punktzahl des Stabweitsprungs
+    
+    :param leistung: Leistung in Punkten (1p == 25cm)
+    :return: abgerundete Punktzahl
+"""
+def calculateStabweitsprung(leistung):
+    float(leistung)
+
+    return math.floor(leistung*18.5)
+
+"""
+    Berechne Punktzahl des Stoßens
+    
+    :param leistung: Leistung in Metern
+    :return: abgerundete Punktzahl
+"""
+def calculateStoss(leistung):
+    return 10
+
+"""
+    Berechne Punktzahl der Biathlonstaffel
+    
+    :param leistung: Leistung des Teams in Sekunden
+    :return: abgerundete Punktzahl
+"""
+def calculateBiathlonstaffel(leistung):
+    # TODO: I would simply multiply the value in seconds by a suitable factor (don't know the range of values yet)
+    return leistung * 2
+
+"""
+TESTING
+"""
+leistungen_stab = [3, 17, 0, 12, 8, 20, 14, 6, 9, 1, 19, 7, 5, 13, 2, 18, 10, 4, 16, 11]
+leistungen_sprint = [8.67, 9.22, 9.26, 9.43, 9.43, 9.82, 9.87, 9.88, 9.93, 9.99, 10.03, 10.07, 10.25, 10.27, 10.35, 10.36, 10.41, 10.68, 11.19, 11.30, 11.77]
+# for i in leistungen_sprint:
     # print(i)
-    print(calculateHindernissprintU12(i))
+    # print(calculateHindernissprintU12(i))
+for i in leistungen_stab:
+    print(calculateStabweitsprung(i))
