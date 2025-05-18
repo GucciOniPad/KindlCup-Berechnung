@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# PyInstaller
+*.spec
+
+# Virtual environments
+venv/
+env/
+bin/
+lib/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints (if relevant)
+.ipynb_checkpoints/
+
+# MacOS metadata
+.DS_Store
