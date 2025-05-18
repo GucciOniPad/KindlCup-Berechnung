@@ -99,7 +99,11 @@ def calculateStabweitsprung(leistung):
     :return: abgerundete Punktzahl
 """
 def calculateStoss(leistung):
-    return 10
+    a = 51.39
+    c = 1.05
+    float(leistung)
+
+    return math.floor((leistung**c) * a)
 
 """
     Berechne Punktzahl der Biathlonstaffel
@@ -116,8 +120,9 @@ TESTING
 """
 leistungen_stab = [3, 17, 0, 12, 8, 20, 14, 6, 9, 1, 19, 7, 5, 13, 2, 18, 10, 4, 16, 11]
 leistungen_sprint = [8.67, 9.22, 9.26, 9.43, 9.43, 9.82, 9.87, 9.88, 9.93, 9.99, 10.03, 10.07, 10.25, 10.27, 10.35, 10.36, 10.41, 10.68, 11.19, 11.30, 11.77]
+leistungen_wurf = [2.3, 3.1, 3.8, 4.0, 4.5, 4.9, 5.2, 5.5, 5.9, 6.2, 6.6, 6.9, 7.1, 7.4, 7.7]
 # for i in leistungen_sprint:
     # print(i)
     # print(calculateHindernissprintU12(i))
-for i in leistungen_stab:
-    print(calculateStabweitsprung(i))
+for i in leistungen_wurf:
+    print(calculateStoss(i))

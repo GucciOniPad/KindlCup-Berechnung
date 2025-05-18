@@ -39,3 +39,16 @@ Wir brauchen pro File die scores sowie den Teamnamen, der den jeweiligen Score h
 - h - Hindernissprint
 - k - stoßen
 - p - stabweit (sorry)
+
+## Stoßen
+- Formeln sind angelehnt am Kugelstoßen (ohne `b` Wert)
+- Punkte für Stoßweiten im Bereich [2.3, 7.7] resultieren in Punkten im Bereich [123, 438]
+  -> Ohne Werte von den Kindern für den Stoß zu haben, sind die Punktezahlen vergleichbar mit den Wurfdisziplinen am PSV
+
+---
+
+# Open TODOs
+- Biathlonstaffel
+- Hindernissprint U8/U10
+- csv_parser
+- (final ranking / autmatisierung)
