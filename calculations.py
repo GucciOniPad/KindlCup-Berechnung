@@ -79,6 +79,7 @@ def calculateHindernissprintU12(leistung):
 """
     TODO: U8 und U10
 """
+# TODO
 
 """
     Berechne Punktzahl des Stabweitsprungs

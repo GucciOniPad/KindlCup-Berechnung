@@ -29,3 +29,13 @@ Wir brauchen pro File die scores sowie den Teamnamen, der den jeweiligen Score h
 
 -> Punkte für Punktwerte [0, 20] in [0,350]. Im Schnitt haben wir eine Leistung von 11.25 Punkten (281cm), was 175 Punkten entspricht.
 -> Evtl. Faktor etwas erhöhen. Mit 18.5 erhalten wir im Schnitt 208 Punkte. Im Vergleich Funfsprung U10 hatte im Schnitt 237 Punkte.
+
+## Änderungen am csv_parser:
+- ändern der if else Logik um die weiteren Disziplinen mit einzubeziehen
+  -> Sowohl in write_discipline als auch in read_and_process_data (note: schauen, was reversed gilt und was nicht -> Läufe)
+
+## Lettering: 
+- b - Biathlonstaffel
+- h - Hindernissprint
+- k - stoßen
+- p - stabweit (sorry)
