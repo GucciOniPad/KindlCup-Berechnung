@@ -61,7 +61,6 @@ def calculateStadioncross(leistung):
 """2.Wettkampf TS Jahn"""
 
 # TODO: Separate formulas for age groups due to differences in race length
-
 """
     Berechne Punktzahl des Hindernissprints
     
@@ -71,15 +70,19 @@ def calculateStadioncross(leistung):
 def calculateHindernissprintU12(leistung):
     a = 20.5173
     b = 17 # Basis 0 Wert (18)
-    c = 1.74 # 1.92
+    c = 1.65 # 1.74
     float(leistung)
 
     return math.floor(a * ((b - leistung)**c))
 
-"""
-    TODO: U8 und U10
-"""
-# TODO
+# I will try to use one function for both age groups
+def calculateHindernissprintU8_U10(leistung):
+    a = 20.5173
+    b = 16
+    c = 1.69 # 1.74
+    float(leistung)
+
+    return math.floor(a * ((b - leistung)**c))
 
 """
     Berechne Punktzahl des Stabweitsprungs
@@ -113,7 +116,7 @@ def calculateStoss(leistung):
 """
 def calculateBiathlonstaffel(leistung):
     # TODO: I would simply multiply the value in seconds by a suitable factor (don't know the range of values yet)
-    return leistung * 2
+    return math.floor(leistung*2.0)
 
 """
 TESTING
@@ -121,8 +124,18 @@ TESTING
 leistungen_stab = [3, 17, 0, 12, 8, 20, 14, 6, 9, 1, 19, 7, 5, 13, 2, 18, 10, 4, 16, 11]
 leistungen_sprint = [8.67, 9.22, 9.26, 9.43, 9.43, 9.82, 9.87, 9.88, 9.93, 9.99, 10.03, 10.07, 10.25, 10.27, 10.35, 10.36, 10.41, 10.68, 11.19, 11.30, 11.77]
 leistungen_wurf = [2.3, 3.1, 3.8, 4.0, 4.5, 4.9, 5.2, 5.5, 5.9, 6.2, 6.6, 6.9, 7.1, 7.4, 7.7]
-# for i in leistungen_sprint:
-    # print(i)
-    # print(calculateHindernissprintU12(i))
-for i in leistungen_wurf:
-    print(calculateStoss(i))
+
+u8_times = [7.0, 7.5, 8.5, 9.0] # [549, 840]
+u10_times = [10.0, 10.2, 10.5, 10.7, 10.9, 11.2, 11.5, 11.8, 12.0, 12.3, 12.5, 12.9] # [138, 423]
+u12_times = [10.0, 10.2, 10.5, 10.7, 10.9, 11.2, 11.5, 11.8, 12.0, 12.3, 12.5, 12.9]
+
+# for i in u8_times:
+#     print(calculateHindernissprintU8_U10(i))
+#
+# print("---")
+# for i in u10_times:
+#     print(calculateHindernissprintU8_U10(i))
+
+# print("---")
+# for i in u12_times:
+#     print(calculateHindernissprintU12(i))

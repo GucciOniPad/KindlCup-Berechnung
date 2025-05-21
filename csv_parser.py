@@ -17,6 +17,16 @@ def writeDiscipline(discipline):
         print("Ranking for Fünfsprung completed. The Top Teams are in the output file.")
     elif discipline == 'c':
         print("Ranking for Stadioncross completed. The Top Teams are in the output file.")
+    elif discipline == 'b':
+        print("Ranking for Biathlonstaffel completed. The Top Teams are in the output file.")
+    elif discipline == 'h1':
+        print("Ranking for Hürdensprint U8/U10 completed. The Top Teams are in the output file.")
+    elif discipline == 'h2':
+        print("Ranking for Hürdensprint U12 completed. The Top Teams are in the output file.")
+    elif discipline == 'k':
+        print("Ranking for Kugelstoß completed. The Top Teams are in the output file.")
+    elif discipline == 'p':
+        print("Ranking for Stabweitsprung completed. The Top Teams are in the output file.")
     else:
         print("Ranking completed. The Top Teams are in the output file.")
 
@@ -35,9 +45,9 @@ def read_and_process_data(csv_file, discipline):
             row["result"] = float(row["result"])
             data.append(row)
 
-    reverse_sort = discipline in ['s', 'd', 'f']
+    reverse_sort = discipline in ['s', 'd', 'f', 'k', 'p']
     sorted_data = sorted(data, key=lambda x: x["result"], reverse=reverse_sort)
-    if discipline == 'c':
+    if discipline in ['c', 'h1', 'h2', 'b']:
         sorted_data = sorted(data, key=lambda x: x["result"])
 
     for entry in sorted_data:
@@ -49,6 +59,16 @@ def read_and_process_data(csv_file, discipline):
             entry['points'] = calculations.calculateFuenfSprung(entry['result'])
         elif discipline == 'c':
             entry['points'] = calculations.calculateStadioncross(entry['result'])
+        elif discipline == 'k':
+            entry['points'] = calculations.calculateStoss(entry['result'])
+        elif discipline == 'p':
+            entry['points'] = calculations.calculateStabweitsprung(entry['result'])
+        elif discipline == 'b':
+            entry['points'] = calculations.calculateBiathlonstaffel(entry['result'])
+        elif discipline == 'h1':
+            entry['points'] = calculations.calculateHindernissprintU8_U10(entry['result'])
+        elif discipline == 'h2':
+            entry['points'] = calculations.calculateHindernissprintU12(entry['result'])
         else:
             print("Not a valid discipline")
             return []
