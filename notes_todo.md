@@ -54,3 +54,12 @@ Wir brauchen pro File die scores sowie den Teamnamen, der den jeweiligen Score h
 - Biathlonstaffel
 - Hindernissprint U8/U10
 - (final ranking / autmatisierung)
+
+
+    # Convert to proper Path object (cross-platform)
+    input_file = Path(input_path).resolve()
+    output_file = Path(output_path).resolve()
+
+    # Pass the correct string paths to your parser
+    csv_parser.writeFileRankingCSV(str(input_file), discipline, "output_files/out_test.csv")
+    csv_parser.writeTop6PerTeamCSV("output_files/out_test.csv", str(output_file))
