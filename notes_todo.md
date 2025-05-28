@@ -48,18 +48,13 @@ Wir brauchen pro File die scores sowie den Teamnamen, der den jeweiligen Score h
 ## Hindernissprint
 -> Punktzahlen bei U8/U10 sind eher auf niedrige U10 optimiert. Evtl. live anpassen, sobald genauere Werte da sind. U8 ist bisschen drüber, evtl. eigene Formel...
 
+## Biathlonstaffel
+Es wird 3 x 500m pro Team gelaufen und dabei auf die langsamste Person gewartet. 
+Zusätzlich muss 3 x geworfen werden und evtl. Strafrunden gelaufen werden.
+Bei einer Zeit von > 10min (2min / 500m + ~1 Minute werfen) kämen wir auf 600 Sekunden. (600s * 0.75p -> 450 Punkte)
+
 ---
 
 # Open TODOs
-- Biathlonstaffel
-- Hindernissprint U8/U10
 - (final ranking / autmatisierung)
 
-
-    # Convert to proper Path object (cross-platform)
-    input_file = Path(input_path).resolve()
-    output_file = Path(output_path).resolve()
-
-    # Pass the correct string paths to your parser
-    csv_parser.writeFileRankingCSV(str(input_file), discipline, "output_files/out_test.csv")
-    csv_parser.writeTop6PerTeamCSV("output_files/out_test.csv", str(output_file))
