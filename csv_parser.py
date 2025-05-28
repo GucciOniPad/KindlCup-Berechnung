@@ -20,8 +20,10 @@ def writeDiscipline(discipline):
     elif discipline == 'b':
         print("Ranking for Biathlonstaffel completed. The Top Teams are in the output file.")
     elif discipline == 'h1':
-        print("Ranking for Hürdensprint U8/U10 completed. The Top Teams are in the output file.")
+        print("Ranking for Hürdensprint U8 completed. The Top Teams are in the output file.")
     elif discipline == 'h2':
+        print("Ranking for Hürdensprint U10 completed. The Top Teams are in the output file.")
+    elif discipline == 'h3':
         print("Ranking for Hürdensprint U12 completed. The Top Teams are in the output file.")
     elif discipline == 'k':
         print("Ranking for Kugelstoß completed. The Top Teams are in the output file.")
@@ -47,7 +49,7 @@ def read_and_process_data(csv_file, discipline):
 
     reverse_sort = discipline in ['s', 'd', 'f', 'k', 'p']
     sorted_data = sorted(data, key=lambda x: x["result"], reverse=reverse_sort)
-    if discipline in ['c', 'h1', 'h2', 'b']:
+    if discipline in ['c', 'h1', 'h2', 'h3', 'b']:
         sorted_data = sorted(data, key=lambda x: x["result"])
 
     for entry in sorted_data:
@@ -66,8 +68,10 @@ def read_and_process_data(csv_file, discipline):
         elif discipline == 'b':
             entry['points'] = calculations.calculateBiathlonstaffel(entry['result'])
         elif discipline == 'h1':
-            entry['points'] = calculations.calculateHindernissprintU8_U10(entry['result'])
+            entry['points'] = calculations.calculateHindernissprintU8(entry['result'])
         elif discipline == 'h2':
+            entry['points'] = calculations.calculateHindernissprintU10(entry['result'])
+        elif discipline == 'h3':
             entry['points'] = calculations.calculateHindernissprintU12(entry['result'])
         else:
             print("Not a valid discipline")

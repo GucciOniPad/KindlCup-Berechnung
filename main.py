@@ -8,7 +8,7 @@ import csv_parser
     Erfragt Disziplin, die berechnet werden soll und führt die Berechnung auf den csv Dateien durch
 """
 def calculateDiscipline():
-    print("Select discipline: 'b' - Biathlonstaffel, 'h1' - Hindernissprint U8/U10, 'h2' - Hindernissprint U12, 'k' - Stoßen, 'p' - Stabweitsprung")
+    print("Select discipline: 'b' - Biathlonstaffel, 'h1' - Hindernissprint U8, 'h2' - Hindernissprint U10, 'h3' - Hindernissprint U12, 'k' - Stoßen, 'p' - Stabweitsprung")
     discipline = input("Enter discipline: ").strip()
     # discipline = input("Enter discipline: 's' - Schlagwurf, 'd' - Drehwurf, 'f' - Fünfsprung, 'c' - Stadioncross\n").strip()
     input_path = input("Enter path to the input file:\n").strip()

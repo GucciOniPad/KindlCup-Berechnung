@@ -36,7 +36,7 @@ Wir brauchen pro File die scores sowie den Teamnamen, der den jeweiligen Score h
 
 ## Lettering: 
 - b - Biathlonstaffel
-- h - Hindernissprint (h1, h2)
+- h - Hindernissprint (h1 - U8, h2 - U10, h3 - U12)
 - k - Stoßen
 - p - Stabweit (sorry)
 
