@@ -1,0 +1,29 @@
+team,name,result,points
+geisenfeld,163,4.0,220.0
+geisenfeld,164,4.0,220.0
+geisenfeld,166,4.0,220.0
+geisenfeld,168,4.0,220.0
+geisenfeld,161,3.5,191.0
+geisenfeld,162,3.5,191.0
+,SUM,,1262.0
+tsv ost wilde pferde,270,4.5,249.0
+tsv ost wilde pferde,268,4.0,220.0
+tsv ost wilde pferde,266,3.5,191.0
+tsv ost wilde pferde,264,3.0,162.0
+tsv ost wilde pferde,267,3.0,162.0
+tsv ost wilde pferde,265,2.5,134.0
+,SUM,,1118.0
+juniorproffessur fur kickstart kompetenz,250,5.0,278.0
+juniorproffessur fur kickstart kompetenz,251,4.0,220.0
+juniorproffessur fur kickstart kompetenz,253,3.0,162.0
+juniorproffessur fur kickstart kompetenz,255,3.0,162.0
+juniorproffessur fur kickstart kompetenz,256,3.0,162.0
+juniorproffessur fur kickstart kompetenz,252,2.0,106.0
+,SUM,,1090.0
+startblock stipendiaten,259,3.5,191.0
+startblock stipendiaten,258,3.0,162.0
+startblock stipendiaten,257,2.5,134.0
+startblock stipendiaten,260,2.5,134.0
+startblock stipendiaten,261,2.5,134.0
+startblock stipendiaten,262,2.0,106.0
+,SUM,,861.0
