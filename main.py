@@ -8,9 +8,12 @@ import csv_parser
     Erfragt Disziplin, die berechnet werden soll und führt die Berechnung auf den csv Dateien durch
 """
 def calculateDiscipline():
-    print("Select discipline: 'b' - Biathlonstaffel, 'h1' - Hindernissprint U8, 'h2' - Hindernissprint U10, 'h3' - Hindernissprint U12, 'k' - Stoßen, 'p' - Stabweitsprung")
-    discipline = input("Enter discipline: ").strip()
+    # print("Select discipline: 'b' - Biathlonstaffel, 'h1' - Hindernissprint U8, 'h2' - Hindernissprint U10, 'h3' - Hindernissprint U12, 'k' - Stoßen, 'p' - Stabweitsprung")
     # discipline = input("Enter discipline: 's' - Schlagwurf, 'd' - Drehwurf, 'f' - Fünfsprung, 'c' - Stadioncross\n").strip()
+
+    print("Select discipline: 's1' - Sprint U8, 's2' - Sprint U10, 's3' - Sprint U12, 'j1' - Hoch-Weit-Sprung U8/U10, 'j2' - Hochsprung U12")
+    discipline = input("Enter discipline: ").strip()
+
     input_path = input("Enter path to the input file:\n").strip()
     output_path = input("Enter path to the desired output file:\n").strip()
 
@@ -21,6 +24,10 @@ def calculateDiscipline():
     csv_parser.writeFileRankingCSV(str(input_file), discipline, "output_files/out_test.csv")
     csv_parser.writeTop6PerTeamCSV("output_files/out_test.csv", str(output_file), discipline)
 
+
+
+
+
 """
     Berechnet das finale ranking basierend auf den einzelnen Disziplinsrankings
 """
@@ -28,9 +35,6 @@ def calculateFinalScoring():
     output_files = input("Enter path to directory of output files:\n")
     # Loop through files in dir and perform ranking
     # Write Final scoring in output file
-
-
-
 
 """
     Diese Funktion startet, je nach User input, die Berechnung für eine Disziplin oder die finale Auswertung

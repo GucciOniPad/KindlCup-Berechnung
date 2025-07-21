@@ -53,8 +53,9 @@ Es wird 3 x 500m pro Team gelaufen und dabei auf die langsamste Person gewartet.
 Zusätzlich muss 3 x geworfen werden und evtl. Strafrunden gelaufen werden.
 Bei einer Zeit von > 10min (2min / 500m + ~1 Minute werfen) kämen wir auf 600 Sekunden. (600s * 0.75p -> 450 Punkte)
 
+# Wettkampf Notizen
+- Catch für DNFs in den Wettkämpfen (99 funktioniert nicht)
 ---
 
 # Open TODOs
 - (final ranking / autmatisierung)
-

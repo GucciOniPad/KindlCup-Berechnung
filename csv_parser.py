@@ -29,6 +29,16 @@ def writeDiscipline(discipline):
         print("Ranking for Kugelstoß completed. The Top Teams are in the output file.")
     elif discipline == 'p':
         print("Ranking for Stabweitsprung completed. The Top Teams are in the output file.")
+    elif discipline == 's1':
+        print("Ranking for Sprint U8 completed. The Top Teams are in the output file.")
+    elif discipline == 's2':
+        print("Ranking for Sprint U10 completed. The Top Teams are in the output file.")
+    elif discipline == 's3':
+        print("Ranking for Sprint U12 completed. The Top Teams are in the output file.")
+    elif discipline == 'j1':
+        print("Ranking for Hoch-Weit-Sprung U8/U10 completed. The Top Teams are in the output file.")
+    elif discipline == 'j2':
+        print("Ranking for Hochsprung U12 completed. The Top Teams are in the output file.")
     else:
         print("Ranking completed. The Top Teams are in the output file.")
 
@@ -36,7 +46,7 @@ def writeDiscipline(discipline):
     Erstellt ein Ranking der einzelnen Leistungen und berechnet die Punktzahl für die gewollte Disziplin
     
     :param csv_file: file path
-    :param discipline: char für Disziplin 's' (Schlagwurf), 'd' (Drehwurf), 'f' (Fünfsprung), 'c' (Stadioncross)
+    :param discipline: char für Disziplin 
     :return: sorted data
 """
 def read_and_process_data(csv_file, discipline):
@@ -47,9 +57,9 @@ def read_and_process_data(csv_file, discipline):
             row["result"] = float(row["result"])
             data.append(row)
 
-    reverse_sort = discipline in ['s', 'd', 'f', 'k', 'p']
+    reverse_sort = discipline in ['s', 'd', 'f', 'k', 'p', 'j1', 'j2']
     sorted_data = sorted(data, key=lambda x: x["result"], reverse=reverse_sort)
-    if discipline in ['c', 'h1', 'h2', 'h3', 'b']:
+    if discipline in ['c', 'h1', 'h2', 'h3', 'b', 's1', 's2', 's3']:
         sorted_data = sorted(data, key=lambda x: x["result"])
 
     for entry in sorted_data:
@@ -73,6 +83,16 @@ def read_and_process_data(csv_file, discipline):
             entry['points'] = calculations.calculateHindernissprintU10(entry['result'])
         elif discipline == 'h3':
             entry['points'] = calculations.calculateHindernissprintU12(entry['result'])
+        elif discipline == 's1':
+            entry['points'] = calculations.calculateSprintU8(entry['result'])
+        elif discipline == 's2':
+            entry['points'] = calculations.calculateSprintU10(entry['result'])
+        elif discipline == 's3':
+            entry['points'] = calculations.calculateSprintU12(entry['result'])
+        elif discipline == 'j1':
+            entry['points'] = calculations.calculateHighJumpU8U10(entry['result'])
+        elif discipline == 'j2':
+            entry['points'] = calculations.calculateHighJumpU12(entry['result'])
         else:
             print("Not a valid discipline")
             return []

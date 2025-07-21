@@ -93,7 +93,7 @@ def calculateHindernissprintU8(leistung):
 """
     Berechne Punktzahl des Stabweitsprungs
     
-    :param leistung: Leistung in Punkten (1p == 25cm)
+    :param leistung: Leistung i n Punkten (1p == 25cm)
     :return: abgerundete Punktzahl
 """
 def calculateStabweitsprung(leistung):
@@ -123,25 +123,37 @@ def calculateStoss(leistung):
 def calculateBiathlonstaffel(leistung):
     return math.floor(leistung*0.75) # Change factor depending on times
 
+"""3. Wettkampf Dante"""
+
 """
-TESTING
+    Values for a, b, and c are women's 60m
 """
-leistungen_stab = [3, 17, 0, 12, 8, 20, 14, 6, 9, 1, 19, 7, 5, 13, 2, 18, 10, 4, 16, 11]
-leistungen_sprint = [8.67, 9.22, 9.26, 9.43, 9.43, 9.82, 9.87, 9.88, 9.93, 9.99, 10.03, 10.07, 10.25, 10.27, 10.35, 10.36, 10.41, 10.68, 11.19, 11.30, 11.77]
-leistungen_wurf = [2.3, 3.1, 3.8, 4.0, 4.5, 4.9, 5.2, 5.5, 5.9, 6.2, 6.6, 6.9, 7.1, 7.4, 7.7]
+def calculateSprintU12(leistung): # 50m
+   a = 40.0849 # original 46.0849 for ~ [444, 1100]
+   b = 13
+   c = 1.81
+   return math.floor(a*(b - leistung)**c)
 
-u8_times = [7.0, 7.5, 8.5, 9.0] # [549, 840]
-u10_times = [9.3, 9.5, 9.8, 10.0, 10.2, 10.5, 10.7, 10.9, 11.2, 11.5, 11.8, 12.0, 12.3, 12.5, 12.9] # [138, 423]
-u12_times = [10.0, 10.2, 10.5, 10.7, 10.9, 11.2, 11.5, 11.8, 12.0, 12.3, 12.5, 12.9]
+def calculateSprintU10(leistung):  # 40m
+    a = 38.5
+    b = 13.0
+    c = 1.81
+    return math.floor(a * (b - leistung)**c)
 
-# print("-- U8 --")
-# for i in u8_times:
-#     print(calculateHindernissprintU8(i))
+def calculateSprintU8(leistung):   # 30m
+    a = 34.0
+    b = 12.5
+    c = 1.81
+    return math.floor(a * (b - leistung)**c)
 
-# print("-- U10 --")
-# for i in u10_times:
-#     print(calculateHindernissprintU10(i))
+def calculateHighJumpU8U10(leistung):  # Shared formula for U8 & U10
+    a = 2.12
+    b = 24
+    c = 1.35
+    return math.floor(a * (leistung - b)**c)
 
-# print("-- U12 --")
-# for i in u12_times:
-#     print(calculateHindernissprintU12(i))
+def calculateHighJumpU12(leistung):
+    a = 1.70
+    b = 30
+    c = 1.4
+    return math.floor(a * (leistung - b) ** c)
