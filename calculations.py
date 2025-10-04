@@ -123,7 +123,7 @@ def calculateStoss(leistung):
 def calculateBiathlonstaffel(leistung):
     return math.floor(leistung*0.75) # Change factor depending on times
 
-"""3. Wettkampf Dante"""
+"""3. Wettkampf Ost"""
 
 """
     Values for a, b, and c are women's 60m
