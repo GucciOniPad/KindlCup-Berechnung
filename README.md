@@ -1,7 +1,6 @@
 Herzlich willkommen zur Auswertung des Münchner Kindl Cups!
 
-Im Folgenden wird das grundlegende Konzept der Berechnung erklärt. Außerdem finden sich hier die exakten Ergebnisse aller Athleten für den ersten Stopp der Wettkampfserie am 30.03.2025 am PSV München.
-
+Im Folgenden wird das grundlegende Konzept der Berechnung erklärt. Außerdem finden sich hier die offiziellen Ergebnisse.
 # Berechnung
 Das gesamte Tool besteht im Wesentlichen aus einem [Python Script](./csv_parser.py), welches Daten aus den Ergebnislisten (.csv) liest und die Punkte mithilfe vorher aufgestellter Formeln berechnet.
 Die genauen Werte der Formeln lassen sich in [calculations.py](./calculations.py) nachvollziehen. Die Faktoren der Formeln orientieren sich an den offiziellen Berechnungen der Punktzahlen im Zehnkampf, wobei jeweils die Disziplin mit der besten vergleichbarkeit gewählt wurde (z.B. $\text{Drehwurf}\Leftrightarrow\text{Diskuswurf}$).
