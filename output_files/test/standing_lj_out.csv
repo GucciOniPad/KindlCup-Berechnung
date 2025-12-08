@@ -1,0 +1,100 @@
+team,name,result,points
+Team Puma,Finn Kaiser,240.0,1313.0
+Team Puma,Niklas Peters,230.0,1149.0
+Team Puma,Ben Novak,215.0,921.0
+Team Puma,Sarah Jung,202.5,749.0
+Team Puma,Lara Herbst,190.5,598.0
+Team Puma,Emily Winter,175.5,432.0
+,SUM,,5162.0
+Team Löwe,David Hoffmann,235.5,1238.0
+Team Löwe,Noah Klein,225.0,1070.0
+Team Löwe,Emil Wolf,218.0,965.0
+Team Löwe,Clara Koch,208.5,829.0
+Team Löwe,Anna Richter,185.0,534.0
+Team Löwe,Marie Frank,179.0,468.0
+,SUM,,5104.0
+Team Panther,Oskar Berg,228.0,1117.0
+Team Panther,Julian Roth,217.5,957.0
+Team Panther,Tom Sommer,212.0,878.0
+Team Panther,Moritz Bauer,207.0,809.0
+Team Panther,Amelie Kruse,198.5,697.0
+Team Panther,Ida Vogt,185.5,540.0
+,SUM,,4998.0
+Team Adler,Jonas Becker,222.0,1024.0
+Team Adler,Max Müller,215.5,928.0
+Team Adler,Leon Wagner,210.0,850.0
+Team Adler,Lena Schmidt,205.0,782.0
+Team Adler,Elias Weber,195.5,659.0
+Team Adler,Mia Schulz,192.5,622.0
+,SUM,,4865.0
+Team Kobra,Moritz Groß,220.0,994.0
+Team Kobra,Leo Wagner,215.0,921.0
+Team Kobra,Finn Bauer,210.0,850.0
+Team Kobra,Julian Meyer,205.5,789.0
+Team Kobra,Hanna Klein,190.0,592.0
+Team Kobra,Lilli Fuchs,180.5,484.0
+,SUM,,4630.0
+Team Leopard,Tim Fuchs,220.0,994.0
+Team Leopard,Nele Meyer,210.0,850.0
+Team Leopard,Luca Jäger,208.0,823.0
+Team Leopard,Paul Zimmermann,200.5,723.0
+Team Leopard,Hanna Lange,195.0,653.0
+Team Leopard,Felix Scholz,180.0,479.0
+,SUM,,4522.0
+Team Tiger,Sophie Wolf,230.0,1149.0
+Team Tiger,Ida Schuster,215.0,921.0
+Team Tiger,Nele Berg,205.5,789.0
+Team Tiger,Paul Frank,195.0,653.0
+Team Tiger,Tim Maier,180.0,479.0
+Team Tiger,Ben Kern,175.0,426.0
+,SUM,,4417.0
+Team Flamingo,Sarah Wirtz,225.0,1070.0
+Team Flamingo,Clara Lenz,215.0,921.0
+Team Flamingo,Mira Jung,205.0,782.0
+Team Flamingo,Jonas Beck,190.5,598.0
+Team Flamingo,Emil König,185.5,540.0
+Team Flamingo,Niklas Mohr,175.5,432.0
+,SUM,,4343.0
+Team Zebra,Amelie Haas,220.0,994.0
+Team Zebra,Emma Roth,210.5,857.0
+Team Zebra,Lena Voss,200.0,716.0
+Team Zebra,Leo Weber,190.0,592.0
+Team Zebra,Max Keller,185.0,534.0
+Team Zebra,Tom Schulz,170.0,377.0
+,SUM,,4070.0
+Team Hai,Jule Koch,228.0,1117.0
+Team Hai,Lina Thiel,212.0,878.0
+Team Hai,Emilia Renz,205.5,789.0
+Team Hai,Mats Schott,195.0,653.0
+Team Hai,Lukas May,185.0,534.0
+,SUM,,3971.0
+Team Panda,Elias Wolf,230.0,1149.0
+Team Panda,Max Berger,210.5,857.0
+Team Panda,Tim Koch,200.0,716.0
+Team Panda,Nele Richter,195.5,659.0
+Team Panda,Sophie Zimmermann,185.0,534.0
+,SUM,,3915.0
+Team Gepard,Jakob Stein,225.5,1078.0
+Team Gepard,Ole Hartmann,215.0,921.0
+Team Gepard,Luis Fink,205.0,782.0
+Team Gepard,Romy Groß,195.5,659.0
+Team Gepard,Lotta Blum,168.0,357.0
+,SUM,,3797.0
+Team Wal,Eric Stein,225.0,1070.0
+Team Wal,Felix Weber,210.0,850.0
+Team Wal,Noah Urban,200.5,723.0
+Team Wal,Leni Jung,190.0,592.0
+Team Wal,Mia Vogt,178.0,458.0
+,SUM,,3693.0
+Team Falke,Marlene Seidel,220.0,994.0
+Team Falke,Frida Mertens,210.5,857.0
+Team Falke,Julia Kern,200.0,716.0
+Team Falke,Leo Neu,188.0,569.0
+Team Falke,Max Lorenz,175.0,426.0
+,SUM,,3562.0
+Team Habicht,Klara Engel,215.5,928.0
+Team Habicht,Ella Weiss,205.5,789.0
+Team Habicht,Vincent Grimm,198.0,691.0
+Team Habicht,Anton Voss,190.0,592.0
+Team Habicht,Hannes Zeller,170.0,377.0
+,SUM,,3377.0

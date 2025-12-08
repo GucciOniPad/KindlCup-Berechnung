@@ -157,3 +157,164 @@ def calculateHighJumpU12(leistung):
     b = 30
     c = 1.4
     return math.floor(a * (leistung - b) ** c)
+
+"""
+
+4. Wettkampf Lindehalle
+
+"""
+
+def calculateWurfgeschwindigkeit(leistung):
+    return leistung * 50
+
+def calculateSprintgeschwindigkeit(leistung):
+    return leistung * 90
+
+def calculateStandweitsprung(leistung):
+    return leistung
+
+def calculateStaffelrhythmus(leistung):
+    return leistung
+
+"""
+SPRINTGESCHWINDIGKEIT
+"""
+
+def calculateSprintgeschwindigkeitU8(leistung):
+    # Leistung in km/h. B = 14.0 km/h ergibt 0 Punkte.
+    a = 10.0
+    b = 10.0
+    c = 2.00
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+def calculateSprintgeschwindigkeitU10(leistung):
+    # Leistung in km/h. B = 16.0 km/h ergibt 0 Punkte.
+    a = 11.0
+    b = 12.0
+    c = 1.90
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+def calculateSprintgeschwindigkeitU12(leistung):
+    # Leistung in km/h. B = 18.0 km/h ergibt 0 Punkte.
+    a = 12.0
+    b = 14.0
+    c = 1.80
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+"""
+WURFGESCHWINDIGKEIT
+"""
+
+def calculateWurfgeschwindigkeitU8(leistung):
+    # Leistung in km/h. B = 15.0 km/h ergibt 0 Punkte.
+    a = 1.5
+    b = 15.0
+    c = 2.00
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+def calculateWurfgeschwindigkeitU10(leistung):
+    # Leistung in km/h. B = 18.0 km/h ergibt 0 Punkte.
+    a = 1.8
+    b = 18.0
+    c = 1.90
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+def calculateWurfgeschwindigkeitU12(leistung):
+    # Leistung in km/h. B = 22.0 km/h ergibt 0 Punkte.
+    a = 2.0
+    b = 22.0
+    c = 1.80
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+"""
+STANDWEIT
+"""
+
+def calculateStandweitsprungU8(leistung):
+    # Leistung in Zentimetern. B = 70 cm ergibt 0 Punkte.
+    a = 0.35
+    b = 50.0
+    c = 1.60
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+def calculateStandweitsprungU10(leistung):
+    # Leistung in Zentimetern. B = 90 cm ergibt 0 Punkte.
+    a = 0.25
+    b = 70.0
+    c = 1.70
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+def calculateStandweitsprungU12(leistung):
+    # Leistung in Zentimetern. B = 110 cm ergibt 0 Punkte.
+    a = 0.18
+    b = 100.0
+    c = 1.80
+    if leistung <= b: return 0
+    return math.floor(a * ((leistung - b)**c))
+
+"""
+TESTING
+"""
+# 1. 10m fliegend (km/h)
+leistung_10m_fliegend_u8 = [14.0, 14.5, 15.1, 15.8, 16.5, 17.3, 18.1, 19.0, 20.0, 21.0]
+leistung_10m_fliegend_u10 = [16.0, 16.5, 17.2, 18.0, 18.8, 19.7, 20.6, 21.6, 22.8, 24.0]
+leistung_10m_fliegend_u12 = [18.0, 18.7, 19.4, 20.2, 21.1, 22.1, 23.2, 24.4, 25.7, 27.0]
+# 2. 80g-Ballwurf (km/h)
+leistung_ballwurf_u8 = [15.0, 16.5, 18.0, 20.0, 22.5, 25.0, 28.0, 31.5, 35.0, 38.0]
+leistung_ballwurf_u10 = [18.0, 20.0, 22.0, 24.5, 27.5, 30.5, 34.0, 38.0, 42.5, 47.0]
+leistung_ballwurf_u12 = [22.0, 25.0, 28.0, 31.5, 35.0, 38.5, 42.0, 46.0, 50.5, 55.0]
+# 3. Standweitsprung (cm)
+leistung_weitsprung_u8 = [70, 85, 100, 115, 130, 145, 160, 175, 190, 205]
+leistung_weitsprung_u10 = [90, 105, 120, 135, 150, 165, 180, 195, 210, 225]
+leistung_weitsprung_u12 = [110, 125, 140, 160, 180, 200, 220, 240, 260, 280]
+
+def testU8():
+    print("SPRINT")
+    for leistung in leistung_10m_fliegend_u8:
+        print(calculateSprintgeschwindigkeitU8(leistung))
+    print("WURF")
+    for leistung in leistung_ballwurf_u8:
+        print(calculateWurfgeschwindigkeitU8(leistung))
+    print("WEIT")
+    for leistung in leistung_weitsprung_u8:
+        print(calculateStandweitsprungU8(leistung))
+
+def testU10():
+    print("SPRINT")
+    for leistung in leistung_10m_fliegend_u10:
+        print(calculateSprintgeschwindigkeitU10(leistung))
+    print("WURF")
+    for leistung in leistung_ballwurf_u10:
+        print(calculateWurfgeschwindigkeitU10(leistung))
+    print("WEIT")
+    for leistung in leistung_weitsprung_u10:
+        print(calculateStandweitsprungU10(leistung))
+
+def testU12():
+    print("SPRINT")
+    for leistung in leistung_10m_fliegend_u12:
+        print(calculateSprintgeschwindigkeitU12(leistung))
+    print("WURF")
+    for leistung in leistung_ballwurf_u12:
+        print(calculateWurfgeschwindigkeitU12(leistung))
+    print("WEIT")
+    for leistung in leistung_weitsprung_u12:
+        print(calculateStandweitsprungU12(leistung))
+
+def TEST_FULL():
+    print("U8")
+    testU8()
+    print("U10")
+    testU10()
+    print("U12")
+    testU12()
+
+# TEST_FULL()
