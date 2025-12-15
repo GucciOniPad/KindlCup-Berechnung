@@ -1,6 +1,5 @@
 Dieser Ordner enthält die aktuelle Rangfolge. Hierzu kurz die wichtigsten Informationen:
 
-1. Ein Team ist nur in dieser Rangfolge enhalten, wenn es an allen 3 bis jetzt stattgefundenen Terminen teilgenommen hat (PSV, Jahn, Ost)
-2. In der U10 und U12 gibt es zwei verschiedene Standings, welche allerdings nur unterschiedlich in der Art und Weise sind, wie die Punktzahl für die Gesamtwertung berechnet wird. Die Rangfolge ändert sich **nicht**.
+> Die Rangfolge wurde nun korrekt Vereinsweise berechnet, nicht Teamweise. Dementsprechend wird ein Verein in der Rangliste aufgeführt, wenn er für alle bis jetzt stattgefundenen Termine mindestens ein Team gestellt hat. Bei der Teilnahme von mehreren Teams in der selben Altersklasse wird das besere Team gewertet.
 
 Bei Fehlern oder Fragen stehe ich gerne zur Verfügung ([kian27@outlook.de](mailto:kian27@outlook.de))
