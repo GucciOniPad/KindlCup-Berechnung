@@ -1,0 +1,44 @@
+# Descriptive Statistics for U12 Standweitsprung
+```{R}
+#| message: false
+#| warning: false
+library(tidyverse)
+library(psych)
+library(knitr)
+```
+
+In the following we look at an overview of the data for the U12 Standweitsprung with respect to the different teams.
+
+```{R}
+#| warning: false
+standweitU12 <- read.csv("output_files/Lindehalle/U12/standweitsprungU12.csv", header = TRUE, sep = ",")
+
+stats <- describeBy(standweitU12$result, standweitU12$team, mat = TRUE)
+kable(stats, caption = "Summary per Team")
+```
+
+Try to plot:
+
+```{R}
+#| warning: false
+ggplot(standweitU12, aes(x = team, y = result, fill = team)) +
+  geom_boxplot(outlier.shape = NA, alpha = 0.5) + 
+  geom_jitter(width = 0.2, size = 1.5) + 
+  theme_minimal() +
+  labs(title = "Standweitsprung Results by Team",
+       x = "Team",
+       y = "Distance (cm)") +
+  theme(legend.position = "none")
+```
+
+Different plot:
+
+```{R}
+#| warning: false
+ggplot(standweitU12, aes(x = result, y = team)) +
+    geom_point(color = "royalblue4", size = 2, alpha = 0.7) +
+    theme_minimal() +
+    labs(title = "Standweitsprung Results by Team",
+         x = "Distance (cm)",
+         y = "Team")
+```
