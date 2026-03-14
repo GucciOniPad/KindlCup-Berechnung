@@ -1,63 +1,69 @@
 name,team,result,points
-590,Jahn Speedies Junior 2,23.0,1690
-564,Chilli Willi,23.0,1690
-565,Chilli Willi,23.0,1690
-582,Wilde Pferde,23.0,1690
-637,Juniorprofessur fur Kickstart,23.0,1690
-627,Die Startblock Stipendiaten,23.0,1690
-591,Jahn Speedies Junior 2,22.0,1440
-601,Schnelle Blitze,22.0,1440
-563,Chilli Willi,22.0,1440
-586,Wilde Pferde,22.0,1440
-629,Juniorprofessur fur Kickstart,22.0,1440
-631,Juniorprofessur fur Kickstart,22.0,1440
-634,Juniorprofessur fur Kickstart,22.0,1440
-635,Juniorprofessur fur Kickstart,22.0,1440
-592,Jahn Speedies Junior 2,21.0,1210
-600,Schnelle Blitze,21.0,1210
-568,Chilli Willi,21.0,1210
-584,Wilde Pferde,21.0,1210
-574,Putzbrunner Pagheeras,21.0,1210
-576,Putzbrunner Pagheeras,21.0,1210
-630,Juniorprofessur fur Kickstart,21.0,1210
-632,Juniorprofessur fur Kickstart,21.0,1210
-622,Die Startblock Stipendiaten,21.0,1210
-620,Manzoschule,21.0,1210
-595,Jahn Speedies Junior 2,20.0,1000
-598,Schnelle Blitze,20.0,1000
-602,Schnelle Blitze,20.0,1000
-570,Chilli Willi,20.0,1000
-588,Wilde Pferde,20.0,1000
-610,Manzoschule,20.0,1000
-589,Jahn Speedies Junior 2,19.0,810
-596,Schnelle Blitze,19.0,810
-599,Schnelle Blitze,19.0,810
-566,Chilli Willi,19.0,810
-567,Chilli Willi,19.0,810
-585,Wilde Pferde,19.0,810
-583,Wilde Pferde,19.0,810
-572,Putzbrunner Pagheeras,19.0,810
-578,Putzbrunner Pagheeras,19.0,810
-621,Die Startblock Stipendiaten,19.0,810
-623,Die Startblock Stipendiaten,19.0,810
-628,Die Startblock Stipendiaten,19.0,810
-611,Manzoschule,19.0,810
-612,Manzoschule,19.0,810
-613,Manzoschule,19.0,810
-617,Manzoschule,19.0,810
-618,Manzoschule,19.0,810
-587,Wilde Pferde,18.0,640
-573,Putzbrunner Pagheeras,18.0,640
-575,Putzbrunner Pagheeras,18.0,640
-633,Juniorprofessur fur Kickstart,18.0,640
-624,Die Startblock Stipendiaten,18.0,640
-625,Die Startblock Stipendiaten,18.0,640
-619,Manzoschule,18.0,640
-594,Jahn Speedies Junior 2,17.0,490
-597,Schnelle Blitze,17.0,490
-577,Putzbrunner Pagheeras,17.0,490
-636,Juniorprofessur fur Kickstart,17.0,490
-615,Manzoschule,17.0,490
-616,Manzoschule,17.0,490
-581,Putzbrunner Pagheeras,15.0,250
-614,Manzoschule,12.0,40
+150,Quantenspringer,134.0,355
+230,Adler,135.0,350
+184,Springende Kangurus,138.0,336
+268,Putzbrunner Panther,138.0,336
+106,TS Jahn Speedies,140.0,327
+164,Manzoschule,140.0,327
+228,Adler,140.0,327
+155,Quantenspringer,140.0,327
+102,TS Jahn Speedies,142.0,319
+157,Quantenspringer,143.0,315
+100,TS Jahn Speedies,144.0,311
+147,Teilchenbeschleuniger,144.0,311
+235,Wolfe,145.0,307
+146,Teilchenbeschleuniger,145.0,307
+166,Manzoschule,145.0,307
+153,Quantenspringer,146.0,303
+237,Wolfe,147.0,299
+143,Teilchenbeschleuniger,147.0,299
+236,Wolfe,148.0,295
+111,TS Jahn Speedies,149.0,291
+144,Teilchenbeschleuniger,149.0,291
+160,Manzoschule,149.0,291
+227,Adler,149.0,291
+232,Adler,149.0,291
+151,Quantenspringer,150.0,288
+234,Wolfe,151.0,284
+231,Adler,151.0,284
+154,Quantenspringer,151.0,284
+178,Springende Kangurus,152.0,281
+141,Teilchenbeschleuniger,152.0,281
+226,Adler,153.0,278
+188,Springende Kangurus,154.0,274
+270,Putzbrunner Panther,154.0,274
+241,Wolfe,155.0,271
+107,TS Jahn Speedies,155.0,271
+149,Teilchenbeschleuniger,155.0,271
+262,Putzbrunner Panther,155.0,271
+260,Putzbrunner Panther,156.0,268
+142,Teilchenbeschleuniger,158.0,261
+264,Putzbrunner Panther,159.0,258
+103,TS Jahn Speedies,160.0,255
+169,Manzoschule,161.0,253
+263,Putzbrunner Panther,161.0,253
+156,Quantenspringer,161.0,253
+180,Springende Kangurus,162.0,250
+104,TS Jahn Speedies,162.0,250
+265,Putzbrunner Panther,163.0,247
+181,Springende Kangurus,164.0,244
+182,Springende Kangurus,164.0,244
+109,TS Jahn Speedies,164.0,244
+112,TS Jahn Speedies,164.0,244
+148,Teilchenbeschleuniger,165.0,241
+269,Putzbrunner Panther,165.0,241
+225,Adler,166.0,239
+266,Putzbrunner Panther,167.0,236
+159,Quantenspringer,167.0,236
+261,Putzbrunner Panther,168.0,233
+101,TS Jahn Speedies,170.0,228
+145,Teilchenbeschleuniger,170.0,228
+267,Putzbrunner Panther,171.0,226
+242,Wolfe,174.0,219
+152,Quantenspringer,174.0,219
+183,Springende Kangurus,181.0,203
+185,Springende Kangurus,181.0,203
+167,Manzoschule,182.0,201
+229,Adler,185.0,195
+168,Manzoschule,186.0,193
+186,Springende Kangurus,187.0,191

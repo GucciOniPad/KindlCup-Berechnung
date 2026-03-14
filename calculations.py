@@ -42,7 +42,7 @@ def calculateFuenfSprung(leistung):
     a = 0.14354
     float(leistung)
 
-    return math.floor((leistung**c) * a)
+    return math.floor(((leistung * 100)**c) * a)
 
 """
     Berechne Punktzahl des Stadioncross

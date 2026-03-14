@@ -1,64 +1,57 @@
 team,name,result,points
-Renngeisis 1,3,108.0,529.0
-Renngeisis 1,2,109.0,520.0
-Renngeisis 1,1,120.0,435.0
-Renngeisis 1,6,123.0,416.0
-Renngeisis 1,19,123.0,416.0
-Renngeisis 1,18,124.0,410.0
-,SUM,,2726.0
-Adler,39,108.0,529.0
-Adler,42,116.0,463.0
-Adler,32,120.0,435.0
-Adler,36,120.0,435.0
-Adler,33,121.0,429.0
-Adler,40,121.0,429.0
-,SUM,,2720.0
-Die JAHN-Speedies,83,114.0,479.0
-Die JAHN-Speedies,78,118.0,449.0
-Die JAHN-Speedies,75,120.0,435.0
-Die JAHN-Speedies,79,121.0,429.0
-Die JAHN-Speedies,81,123.0,416.0
-Die JAHN-Speedies,76,131.0,370.0
-,SUM,,2578.0
-Lehrstuhl fur angewandte Schlagballbeschleunigung,84,101.0,599.0
-Lehrstuhl fur angewandte Schlagballbeschleunigung,88,123.0,416.0
-Lehrstuhl fur angewandte Schlagballbeschleunigung,87,128.0,386.0
-Lehrstuhl fur angewandte Schlagballbeschleunigung,86,129.0,381.0
-Lehrstuhl fur angewandte Schlagballbeschleunigung,89,131.0,370.0
-Lehrstuhl fur angewandte Schlagballbeschleunigung,90,132.0,365.0
-,SUM,,2517.0
-Kangurus,111,116.0,463.0
-Kangurus,106,117.0,456.0
-Kangurus,112,122.0,422.0
-Kangurus,107,125.0,404.0
-Kangurus,109,129.0,381.0
-Kangurus,108,136.0,345.0
-,SUM,,2471.0
-Forschungsgruppe Quantensprung,102,120.0,435.0
-Forschungsgruppe Quantensprung,98,122.0,422.0
-Forschungsgruppe Quantensprung,101,123.0,416.0
-Forschungsgruppe Quantensprung,97,130.0,375.0
-Forschungsgruppe Quantensprung,96,132.0,365.0
-Forschungsgruppe Quantensprung,104,133.0,360.0
-,SUM,,2373.0
-Wolfe,43,115.0,471.0
-Wolfe,51,123.0,416.0
-Wolfe,52,130.0,375.0
-Wolfe,49,131.0,370.0
-Wolfe,48,132.0,365.0
-Wolfe,47,137.0,341.0
-,SUM,,2338.0
-Renngeisis 2,13,114.0,479.0
-Renngeisis 2,9,118.0,449.0
-Renngeisis 2,14,123.0,416.0
-Renngeisis 2,16,139.0,332.0
-Renngeisis 2,23,139.0,332.0
-Renngeisis 2,15,140.0,327.0
-,SUM,,2335.0
-Manzoschule,71,123.0,416.0
-Manzoschule,68,124.0,410.0
-Manzoschule,73,141.0,323.0
-Manzoschule,72,142.0,319.0
-Manzoschule,74,184.0,197.0
-Manzoschule,70,186.0,193.0
-,SUM,,1858.0
+Quantenspringer,150,134.0,355.0
+Quantenspringer,155,140.0,327.0
+Quantenspringer,157,143.0,315.0
+Quantenspringer,153,146.0,303.0
+Quantenspringer,151,150.0,288.0
+Quantenspringer,154,151.0,284.0
+,SUM,,1872.0
+Adler,230,135.0,350.0
+Adler,228,140.0,327.0
+Adler,227,149.0,291.0
+Adler,232,149.0,291.0
+Adler,231,151.0,284.0
+Adler,226,153.0,278.0
+,SUM,,1821.0
+TS Jahn Speedies,106,140.0,327.0
+TS Jahn Speedies,102,142.0,319.0
+TS Jahn Speedies,100,144.0,311.0
+TS Jahn Speedies,111,149.0,291.0
+TS Jahn Speedies,107,155.0,271.0
+TS Jahn Speedies,103,160.0,255.0
+,SUM,,1774.0
+Teilchenbeschleuniger,147,144.0,311.0
+Teilchenbeschleuniger,146,145.0,307.0
+Teilchenbeschleuniger,143,147.0,299.0
+Teilchenbeschleuniger,144,149.0,291.0
+Teilchenbeschleuniger,141,152.0,281.0
+Teilchenbeschleuniger,149,155.0,271.0
+,SUM,,1760.0
+Wolfe,235,145.0,307.0
+Wolfe,237,147.0,299.0
+Wolfe,236,148.0,295.0
+Wolfe,234,151.0,284.0
+Wolfe,241,155.0,271.0
+Wolfe,242,174.0,219.0
+,SUM,,1675.0
+Putzbrunner Panther,268,138.0,336.0
+Putzbrunner Panther,270,154.0,274.0
+Putzbrunner Panther,262,155.0,271.0
+Putzbrunner Panther,260,156.0,268.0
+Putzbrunner Panther,264,159.0,258.0
+Putzbrunner Panther,263,161.0,253.0
+,SUM,,1660.0
+Springende Kangurus,184,138.0,336.0
+Springende Kangurus,178,152.0,281.0
+Springende Kangurus,188,154.0,274.0
+Springende Kangurus,180,162.0,250.0
+Springende Kangurus,181,164.0,244.0
+Springende Kangurus,182,164.0,244.0
+,SUM,,1629.0
+Manzoschule,164,140.0,327.0
+Manzoschule,166,145.0,307.0
+Manzoschule,160,149.0,291.0
+Manzoschule,169,161.0,253.0
+Manzoschule,167,182.0,201.0
+Manzoschule,168,186.0,193.0
+,SUM,,1572.0

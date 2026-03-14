@@ -1,80 +1,68 @@
 name,team,result
-106,Kangurus,275
-107,Kangurus,225
-108,Kangurus,195
-109,Kangurus,205
-110,Kangurus,200
-111,Kangurus,260
-112,Kangurus,225
-74,Manzoschule,238
-73,Manzoschule,158
-72,Manzoschule,192
-71,Manzoschule,204
-70,Manzoschule,202
-65,Manzoschule,258
-75,Jahn-Speedies,267
-76,Jahn-Speedies,247
-77,Jahn-Speedies,223
-78,Jahn-Speedies,232
-79,Jahn-Speedies,260
-80,Jahn-Speedies,192
-81,Jahn-Speedies,237
-82,Jahn-Speedies,231
-83,Jahn-Speedies,242
-158,Jahn-Speedies,173
-43,Wolfe,255
-44,Wolfe,210
-45,Wolfe,205
-46,Wolfe,232
-47,Wolfe,230
-48,Wolfe,254
-49,Wolfe,248
-51,Wolfe,251
-52,Wolfe,223
-53,Wolfe,192
-1,Renngeisis 1,300
-2,Renngeisis 1,243
-3,Renngeisis 1,253
-5,Renngeisis 1,204
-6,Renngeisis 1,270
-17,Renngeisis 1,241
-18,Renngeisis 1,242
-19,Renngeisis 1,241
-20,Renngeisis 1,222
-7,Renngeisis 1,188
-8,Renngeisis 2,248
-9,Renngeisis 2,262
-11,Renngeisis 2,238
-12,Renngeisis 2,170
-13,Renngeisis 2,265
-14,Renngeisis 2,228
-15,Renngeisis 2,210
-16,Renngeisis 2,200
-23,Renngeisis 2,225
-86,Lehrstuhl fur angewandte Schlagballbeschleunigung,240
-87,Lehrstuhl fur angewandte Schlagballbeschleunigung,252
-90,Lehrstuhl fur angewandte Schlagballbeschleunigung,230
-84,Lehrstuhl fur angewandte Schlagballbeschleunigung,260
-88,Lehrstuhl fur angewandte Schlagballbeschleunigung,258
-92,Lehrstuhl fur angewandte Schlagballbeschleunigung,255
-89,Lehrstuhl fur angewandte Schlagballbeschleunigung,230
-95,Forschungsgruppe Quantensprung,215
-96,Forschungsgruppe Quantensprung,219
-97,Forschungsgruppe Quantensprung,210
-98,Forschungsgruppe Quantensprung,220
-99,Forschungsgruppe Quantensprung,184
-100,Forschungsgruppe Quantensprung,216
-101,Forschungsgruppe Quantensprung,266
-102,Forschungsgruppe Quantensprung,176
-103,Forschungsgruppe Quantensprung,172
-104,Forschungsgruppe Quantensprung,178
-42,Adler,265
-32,Adler,265
-33,Adler,258
-39,Adler,280
-35,Adler,240
-36,Adler,248
-37,Adler,268
-38,Adler,265
-34,Adler,256
-40,Adler,248
+234,Wolfe,2.69
+235,Wolfe,2.25
+236,Wolfe,2.46
+237,Wolfe,2.66
+241,Wolfe,2.44
+242,Wolfe,2.22
+100,Jahn Speedies,2.4
+101,Jahn Speedies,1.86
+102,Jahn Speedies,2.33
+103,Jahn Speedies,1.8
+104,Jahn Speedies,2.37
+106,Jahn Speedies,2.07
+107,Jahn Speedies,2.3
+109,Jahn Speedies,2.22
+112,Jahn Speedies,2
+178,Kangurus,2.16
+180,Kangurus,2.38
+181,Kangurus,1.81
+182,Kangurus,2.5
+183,Kangurus,2.35
+184,Kangurus,2.25
+185,Kangurus,2.01
+186,Kangurus,1.94
+188,Kangurus,2.83
+225,Adler,2.34
+226,Adler,2.6
+227,Adler,2.14
+228,Adler,2.63
+229,Adler,1.64
+230,Adler,2.57
+231,Adler,2.43
+232,Adler,2.66
+166,Manzoschule,2.47
+168,Manzoschule,1.92
+169,Manzoschule,1.92
+160,Manzoschule,2.12
+164,Manzoschule,2.69
+167,Manzoschule,2.15
+141,Teilchenbeschleuniger,2.75
+142,Teilchenbeschleuniger,1.78
+143,Teilchenbeschleuniger,2.46
+144,Teilchenbeschleuniger,1.91
+145,Teilchenbeschleuniger,1.68
+146,Teilchenbeschleuniger,2.44
+148,Teilchenbeschleuniger,1.79
+149,Teilchenbeschleuniger,2.08
+147,Teilchenbeschleuniger,2.56
+151,Quantenspringer,2.71
+152,Quantenspringer,2.25
+153,Quantenspringer,2.02
+154,Quantenspringer,2.41
+155,Quantenspringer,2.67
+156,Quantenspringer,2.8
+157,Quantenspringer,2.61
+159,Quantenspringer,2.56
+150,Quantenspringer,2.88
+260,Putzbrunner Panther,2.24
+261,Putzbrunner Panther,2.25
+262,Putzbrunner Panther,2.33
+263,Putzbrunner Panther,2.7
+264,Putzbrunner Panther,2.18
+265,Putzbrunner Panther,2.4
+266,Putzbrunner Panther,2.25
+267,Putzbrunner Panther,2.35
+268,Putzbrunner Panther,2.85
+269,Putzbrunner Panther,2.13
+270,Putzbrunner Panther,2.53

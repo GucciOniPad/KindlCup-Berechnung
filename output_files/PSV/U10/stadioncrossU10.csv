@@ -1,36 +1,71 @@
 team,name,result,points
-Turbo Tiger,159,113.0,487.0
-Turbo Tiger,60,114.0,479.0
-Turbo Tiger,55,118.0,449.0
-Turbo Tiger,56,125.0,404.0
-Turbo Tiger,58,127.0,392.0
-Turbo Tiger,59,127.0,392.0
-,SUM,,2603.0
-Seminargruppe fur Drehungen,138,111.0,503.0
-Seminargruppe fur Drehungen,147,120.0,435.0
-Seminargruppe fur Drehungen,141,121.0,429.0
-Seminargruppe fur Drehungen,144,126.0,398.0
-Seminargruppe fur Drehungen,137,129.0,381.0
-Seminargruppe fur Drehungen,140,129.0,381.0
-,SUM,,2527.0
-Bunte Hunde,118,113.0,487.0
-Bunte Hunde,113,121.0,429.0
-Bunte Hunde,114,129.0,381.0
-Bunte Hunde,119,130.0,375.0
-Bunte Hunde,127,130.0,375.0
-Bunte Hunde,123,131.0,370.0
-,SUM,,2417.0
-Putzbrunner Panther,25,131.0,370.0
-Putzbrunner Panther,24,139.0,332.0
-Putzbrunner Panther,28,147.0,299.0
-Putzbrunner Panther,29,147.0,299.0
-Putzbrunner Panther,26,148.0,295.0
-Putzbrunner Panther,27,154.0,274.0
-,SUM,,1869.0
-Mini Adler,67,135.0,350.0
-Mini Adler,66,137.0,341.0
-Mini Adler,61,164.0,244.0
-Mini Adler,62,168.0,233.0
-Mini Adler,63,168.0,233.0
-Mini Adler,64,175.0,216.0
-,SUM,,1617.0
+Powerkids,116,141.0,323.0
+Powerkids,115,152.0,281.0
+Powerkids,122,152.0,281.0
+Powerkids,117,155.0,271.0
+Powerkids,118,164.0,244.0
+Powerkids,119,168.0,233.0
+,SUM,,1633.0
+High Jumpers,288,147.0,299.0
+High Jumpers,289,153.0,278.0
+High Jumpers,292,154.0,274.0
+High Jumpers,291,158.0,261.0
+High Jumpers,296,159.0,258.0
+High Jumpers,294,182.0,201.0
+,SUM,,1571.0
+Giraffen,214,142.0,319.0
+Giraffen,215,146.0,303.0
+Giraffen,211,161.0,253.0
+Giraffen,212,166.0,239.0
+Giraffen,209,169.0,231.0
+Giraffen,210,177.0,212.0
+,SUM,,1557.0
+Chilli Willi,133,150.0,288.0
+Chilli Willi,134,158.0,261.0
+Chilli Willi,135,162.0,250.0
+Chilli Willi,136,164.0,244.0
+Chilli Willi,140,171.0,226.0
+Chilli Willi,139,178.0,210.0
+,SUM,,1479.0
+Bunte Hunde,197,141.0,323.0
+Bunte Hunde,194,165.0,241.0
+Bunte Hunde,190,169.0,231.0
+Bunte Hunde,192,171.0,226.0
+Bunte Hunde,196,171.0,226.0
+Bunte Hunde,195,182.0,201.0
+,SUM,,1448.0
+Long Jumpers,281,145.0,307.0
+Long Jumpers,280,154.0,274.0
+Long Jumpers,279,156.0,268.0
+Long Jumpers,284,178.0,210.0
+Long Jumpers,283,183.0,199.0
+Long Jumpers,285,191.0,184.0
+,SUM,,1442.0
+Putzbrunner Pagheeras,255,144.0,311.0
+Putzbrunner Pagheeras,252,165.0,241.0
+Putzbrunner Pagheeras,259,166.0,239.0
+Putzbrunner Pagheeras,254,178.0,210.0
+Putzbrunner Pagheeras,249,181.0,203.0
+Putzbrunner Pagheeras,250,184.0,197.0
+,SUM,,1401.0
+Gazelle Haidhausen,201,168.0,233.0
+Gazelle Haidhausen,200,170.0,228.0
+Gazelle Haidhausen,203,171.0,226.0
+Gazelle Haidhausen,202,174.0,219.0
+Gazelle Haidhausen,204,179.0,207.0
+Gazelle Haidhausen,199,199.0,170.0
+,SUM,,1283.0
+Fledermause,222,165.0,241.0
+Fledermause,221,167.0,236.0
+Fledermause,217,168.0,233.0
+Fledermause,223,173.0,221.0
+Fledermause,224,190.0,186.0
+Fledermause,218,207.0,158.0
+,SUM,,1275.0
+Manzoschule,177,174.0,219.0
+Manzoschule,173,190.0,186.0
+Manzoschule,174,192.0,182.0
+Manzoschule,171,196.0,175.0
+Manzoschule,175,259.0,104.0
+Manzoschule,176,273.0,95.0
+,SUM,,961.0
