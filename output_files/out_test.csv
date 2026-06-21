@@ -1,69 +1,77 @@
 name,team,result,points
-302,TSV Grunwald,8.0,456
-301,TSV Grunwald,8.0,456
-287,TS Jahn Speedies,7.5,426
-341,Quantenspringer,7.5,426
-332,Teilchenbeschleuniger,7.5,426
-356,Springende Kangurus,7.0,396
-443,TS Jahn Speedies,7.0,396
-333,Quantenspringer,7.0,396
-342,Quantenspringer,7.0,396
-326,Teilchenbeschleuniger,7.0,396
-353,Springende Kangurus,6.5,366
-300,TSV Grunwald,6.5,366
-386,Adler,6.0,337
-390,Adler,6.0,337
-355,Springende Kangurus,6.0,337
-358,Springende Kangurus,6.0,337
-431,Manzoschule,6.0,337
-432,Manzoschule,6.0,337
-446,TS Jahn Speedies,6.0,337
-475,Turbokids,6.0,337
-479,Turbokids,6.0,337
-334,Quantenspringer,6.0,337
-336,Quantenspringer,6.0,337
-338,Quantenspringer,6.0,337
-323,Teilchenbeschleuniger,6.0,337
-329,Teilchenbeschleuniger,6.0,337
-359,Springende Kangurus,5.5,307
-361,Springende Kangurus,5.5,307
-429,Manzoschule,5.5,307
-430,Manzoschule,5.5,307
-435,Manzoschule,5.5,307
-303,TSV Grunwald,5.5,307
-447,TS Jahn Speedies,5.5,307
-477,Turbokids,5.5,307
-340,Quantenspringer,5.5,307
-383,Adler,5.0,278
-360,Springende Kangurus,5.0,278
-299,TSV Grunwald,5.0,278
-442,TS Jahn Speedies,5.0,278
-445,TS Jahn Speedies,5.0,278
-335,Quantenspringer,5.0,278
-337,Quantenspringer,5.0,278
-339,Quantenspringer,5.0,278
-330,Teilchenbeschleuniger,5.0,278
-385,Adler,4.5,249
-389,Adler,4.5,249
-400,Adler,4.5,249
-357,Springende Kangurus,4.5,249
-433,Manzoschule,4.5,249
-298,TSV Grunwald,4.5,249
-444,TS Jahn Speedies,4.5,249
-476,Turbokids,4.5,249
-343,Quantenspringer,4.5,249
-328,Teilchenbeschleuniger,4.5,249
-384,Adler,4.0,220
-362,Springende Kangurus,4.0,220
-363,Springende Kangurus,4.0,220
-305,TSV Grunwald,4.0,220
-478,Turbokids,4.0,220
-480,Turbokids,4.0,220
-325,Teilchenbeschleuniger,4.0,220
-391,Adler,3.5,191
-393,Adler,3.5,191
-434,Manzoschule,3.5,191
-297,TSV Grunwald,3.5,191
-324,Teilchenbeschleuniger,3.5,191
-327,Teilchenbeschleuniger,3.5,191
-331,Teilchenbeschleuniger,3.5,191
+657,Giraffen,590.0,180
+658,Giraffen,590.0,180
+684,Gazelle Haidhausen,600.0,193
+603,Flitzeblitze,660.0,278
+608,Turbotornados,660.0,278
+611,Turbotornados,660.0,278
+614,Turbotornados,660.0,278
+655,Giraffen,670.0,294
+669,Bunte Hunde,670.0,294
+682,Gazelle Haidhausen,670.0,294
+612,Turbotornados,670.0,294
+619,Wirbelwinde,670.0,294
+681,Gazelle Haidhausen,700.0,342
+683,Gazelle Haidhausen,700.0,342
+618,Wirbelwinde,700.0,342
+676,Gazelle Haidhausen,710.0,359
+654,Giraffen,720.0,376
+672,Bunte Hunde,720.0,376
+677,Gazelle Haidhausen,720.0,376
+620,Wirbelwinde,720.0,376
+621,Wirbelwinde,720.0,376
+600,Flitzeblitze,730.0,393
+671,Bunte Hunde,730.0,393
+599,Flitzeblitze,740.0,411
+601,Flitzeblitze,740.0,411
+644,Wolfe,740.0,411
+645,Wolfe,740.0,411
+622,Wirbelwinde,740.0,411
+623,Wirbelwinde,740.0,411
+607,Flitzeblitze,750.0,429
+675,Gazelle Haidhausen,750.0,429
+679,Gazelle Haidhausen,750.0,429
+626,Chilli Willi,750.0,429
+581,Jahn Powerkids,760.0,448
+592,Jahn Powerkids,760.0,448
+604,Flitzeblitze,760.0,448
+649,Wolfe,760.0,448
+630,Chilli Willi,760.0,448
+584,Jahn Powerkids,770.0,466
+598,Flitzeblitze,770.0,466
+642,Wolfe,770.0,466
+670,Bunte Hunde,770.0,466
+617,Wirbelwinde,770.0,466
+668,Bunte Hunde,780.0,485
+632,Chilli Willi,780.0,485
+674,Bunte Hunde,790.0,505
+625,Chilli Willi,790.0,505
+616,Turbotornados,790.0,505
+647,Wolfe,800.0,524
+583,Jahn Powerkids,810.0,544
+585,Jahn Powerkids,810.0,544
+613,Turbotornados,810.0,544
+615,Turbotornados,810.0,544
+586,Jahn Powerkids,820.0,565
+652,Giraffen,820.0,565
+653,Giraffen,820.0,565
+656,Giraffen,820.0,565
+587,Jahn Powerkids,830.0,585
+643,Wolfe,830.0,585
+648,Wolfe,830.0,585
+650,Wolfe,830.0,585
+609,Turbotornados,830.0,585
+610,Turbotornados,830.0,585
+580,Jahn Powerkids,840.0,606
+629,Chilli Willi,840.0,606
+606,Flitzeblitze,870.0,671
+624,Chilli Willi,870.0,671
+582,Jahn Powerkids,880.0,693
+628,Chilli Willi,880.0,693
+631,Chilli Willi,880.0,693
+633,Chilli Willi,880.0,693
+673,Bunte Hunde,890.0,715
+627,Chilli Willi,890.0,715
+602,Flitzeblitze,900.0,738
+646,Wolfe,900.0,738
+651,Giraffen,930.0,808

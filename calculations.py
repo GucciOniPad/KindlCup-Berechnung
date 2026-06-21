@@ -261,6 +261,46 @@ def calculateStandweitsprungU12(leistung):
     return math.floor(a * ((leistung - b)**c))
 
 """
+FROSCHSPRUNG
+"""
+
+# --- METHODE A: SKALIERUNG DER GESAMTWEITE (Flexibel & Empfohlen) ---
+# Die Gesamtweite wird durch die Anzahl der Sprünge (Faktor) geteilt.
+def calculateFroschsprungA_U8(gesamtweite, faktor=5.0):
+    return calculateStandweitsprungU8(gesamtweite / faktor)
+
+def calculateFroschsprungA_U10(gesamtweite, faktor=5.0):
+    return calculateStandweitsprungU10(gesamtweite / faktor)
+
+def calculateFroschsprungA_U12(gesamtweite, faktor=5.0):
+    return calculateStandweitsprungU12(gesamtweite / faktor)
+
+# --- METHODE B: DIREKTE BERECHNUNG MIT NEUEN KONSTANTEN ---
+# Die Gesamtweite wird direkt verarbeitet. Die Konstanten wurden hochpräzise berechnet.
+
+def calculateFroschsprungB_U8(gesamtweite):
+    a_prime = 0.02665134114495147  # Entspricht: 0.35 / (5.0**1.60)
+    b_prime = 250.0                # Entspricht: 50.0 * 5.0
+    c_prime = 1.60
+    if gesamtweite <= b_prime: return 0
+    return math.floor(a_prime * ((gesamtweite - b_prime)**c_prime))
+
+def calculateFroschsprungB_U10(gesamtweite):
+    a_prime = 0.01620651745494191  # Entspricht: 0.25 / (5.0**1.70)
+    b_prime = 350.0                # Entspricht: 70.0 * 5.0
+    c_prime = 1.70
+    if gesamtweite <= b_prime: return 0
+    return math.floor(a_prime * ((gesamtweite - b_prime)**c_prime))
+
+def calculateFroschsprungB_U12(gesamtweite):
+    a_prime = 0.009933519962325368  # Entspricht: 0.18 / (5.0**1.80)
+    b_prime = 500.0                 # Entspricht: 100.0 * 5.0
+    c_prime = 1.80
+    if gesamtweite <= b_prime: return 0
+    return math.floor(a_prime * ((gesamtweite - b_prime)**c_prime))
+
+
+"""
 TESTING
 """
 # 1. 10m fliegend (km/h)

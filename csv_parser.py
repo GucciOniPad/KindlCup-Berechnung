@@ -29,6 +29,9 @@ DISCIPLINE_MAP = {
     'sw1': calculations.calculateStandweitsprungU8,
     'sw2': calculations.calculateStandweitsprungU10,
     'sw3': calculations.calculateStandweitsprungU12,
+    'f1' : calculations.calculateFroschsprungA_U8,
+    'f2' : calculations.calculateFroschsprungA_U10,
+    'f3' : calculations.calculateFroschsprungA_U12
 }
 
 

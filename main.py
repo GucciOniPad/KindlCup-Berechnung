@@ -11,9 +11,9 @@ import csv_parser
 """
 def calculateDiscipline():
     # print("Select discipline: 'b' - Biathlonstaffel, 'h1' - Hindernissprint U8, 'h2' - Hindernissprint U10, 'h3' - Hindernissprint U12, 'k' - Stoßen, 'p' - Stabweitsprung")
-    print("Select discipline: 'h1' - Hindernissprint U8, 'h2' - Hindernissprint U10, 'h3' - Hindernissprint U12, 'k' - Stoßen, 'p' - Stabweitsprung")
+    # print("Select discipline: 'h1' - Hindernissprint U8, 'h2' - Hindernissprint U10, 'h3' - Hindernissprint U12, 'k' - Stoßen, 'p' - Stabweitsprung")
     # discipline = input("Enter discipline: 's' - Schlagwurf, 'd' - Drehwurf, 'f' - Fünfsprung, 'c' - Stadioncross\n").strip()
-    # print("Select discipline: 's1' - Sprint U8, 's2' - Sprint U10, 's3' - Sprint U12, 'j1' - Hoch-Weit-Sprung U8/U10, 'j2' - Hochsprung U12")
+    print("Select discipline: 's1' - Sprint U8, 's2' - Sprint U10, 's3' - Sprint U12, 'j1' - Hoch-Weit-Sprung U8/U10, 'j2' - Hochsprung U12, 'f1' - Froschsprung U8, 'f2' - Froschsprung U10, 'f3'- Froschsprung U12")
 
     # age_group = input("Select Age Group 'u8', 'u10', 'u12': ").strip()f
     # match age_group:
